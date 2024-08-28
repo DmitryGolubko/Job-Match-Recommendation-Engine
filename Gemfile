@@ -11,4 +11,8 @@ gem 'dry-types', '~> 1.7.0'
 
 group :development, :test do
   gem 'pry', '~> 0.14.2'
+  gem 'rspec'
+  gem 'rubocop', '~> 1.57.2', require: false
 end
+
+gem 'simplecov', require: false, group: :test
